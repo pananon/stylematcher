@@ -1,10 +1,14 @@
 import './App.css';
-import { Button } from '@mui/material';
+import  HeroSection from './components/HeroSection';
+import ClosetHighlights from './components/ClosetHighlights';
+import AppLinks from './components/AppLinks';
 
 function App() {
   return (
     <div className="App">
-      <Button> Hi Material UI Button Added</Button>
+      <HeroSection />
+      <ClosetHighlights />
+      <AppLinks />
     </div>
   );
 }
