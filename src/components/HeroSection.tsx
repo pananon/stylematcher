@@ -6,11 +6,9 @@ export default function HeroSection () {
     <div className="navbar">
         <NavBar />
     </div>
-    <div className="animation-v">
-        <AnimationScene />
-    </div>
-    <div className="scroller">
-        Scroller Animation
+    <AnimationScene />
+    <div className="footer">
+        Copyright 2023 - Harimangal Pandey
     </div>
     </>);
 }

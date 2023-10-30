@@ -1,0 +1,43 @@
+.tshirt{
+    position: fixed;
+    top: 161px;
+    transform: rotateY(250deg);
+}
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #C4A484;
+    padding: 10px;
+}
+.footer{
+    padding: 42px;
+    background-color: #F9F5E9;
+    display: flex;
+    margin-top: -5px;
+    padding-bottom: 47px;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay-text {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    background-color: #000000; 
+    color: #fff; 
+    padding: 10px 20px; 
+    font-size: 20px; 
+    text-align: center;
+  }
