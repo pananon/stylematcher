@@ -10,6 +10,7 @@ export default function AnimationScene () {
     <div className='image-container'> 
         <img alt='closet' height={'800px'} width={'100%'} src={closet}/>
         <div className='text-overlay'>{text}</div>
+        <div> Animation </div>
     </div>
     </>);
 }
