@@ -4,11 +4,12 @@ import AnimationScene from "./AnimationScene";
 export default function HeroSection () {
     return (<>
     <div className="navbar">
-        <NavBar />
+      <NavBar />
     </div>
     <AnimationScene />
     <div className="footer">
         Copyright 2023 - Harimangal Pandey
+        [Pvt Ltd.]
     </div>
     </>);
 }
