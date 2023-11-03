@@ -7,10 +7,8 @@ export default function AnimationScene () {
         loop: 0
       })
     return (<>
-    <div className='image-container'> 
-        <img alt='closet' height={'800px'} width={'100%'} src={closet}/>
+    <div className='image-container' style={{ backgroundImage: `url(${closet})` }}>
         <div className='text-overlay'>{text}</div>
-        <div> Animation </div>
     </div>
     </>);
 }
