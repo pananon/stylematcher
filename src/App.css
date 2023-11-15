@@ -1,7 +1,7 @@
 .tshirt{
     position: fixed;
     top: 161px;
-    transform: rotateY(250deg);
+    transform: rotateY(240deg);
 }
 .navbar{
     display: flex;
